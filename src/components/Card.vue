@@ -1,4 +1,6 @@
 <script setup>
+
+
   defineProps({
     title: String,
     imageUrl: String,
@@ -24,7 +26,7 @@
             <b>{{ price }}руб.</b>
           </div>
 
-          <img @click="onClickAdd" :src="!isAdded ? '/plus.svg' : '/checked.svg'" alt="">
+          <img @click="onClickAdd" :src="!isAdded ? './plus.svg' : './checked.svg'" alt="">
         </div>
       </div>
     </div>

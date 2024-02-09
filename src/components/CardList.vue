@@ -20,7 +20,6 @@
         :title="item.title" 
         :imageUrl="item.imageUrl" 
         :price="item.price" 
-        :isFavorite="item.isFavorite"
         :onClickAdd="() => emit('addToCart', item)"
         :isAdded="item.isAdded"
         />
